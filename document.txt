@@ -1,0 +1,64 @@
+
+#step 1
+Create a new repo "myrepo" and go to git bash terminal
+and run the following command. 
+$ git init
+
+one hidden file .gitinit will be created
+
+create a file README.md and run
+
+$ git add README.md
+$ git commit README.md -m "initial commit"
+
+#step 2
+create an account in GitHub and login to GitHub
+and create a repository as "myrepo"
+
+#step 3
+run the following command in terminal to set uername and email in 
+global config of git
+$ git config --glabal user.name "sarfarazahmeda9"
+$ git config --glabal user.email "sarfaraz.ahmed.a9@gmail.com"
+
+#step 4
+$ git push -u origin master
+
+
+#step 1
+Create a new repo "myrepo" and go to git bash terminal
+and run the following command. 
+$ git init
+
+one hidden file .gitinit will be created
+
+create a file README.md and run
+
+$ git add README.md
+$ git commit -m "initial commit"
+
+#step 2
+create an account in GitHub and login to GitHub
+and create a repository as "myrepo"
+
+#step 3
+run the following command in terminal to set uername and email in 
+global config of git
+$ git config --glabal user.name "sarfarazahmeda9"
+$ git config --glabal user.email "sarfaraz.ahmed.a9@gmail.com"
+
+#step 4
+$ git push -u origin master
+
+echo "# myrepo_2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sarfarazahmeda9/myrepo_2.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/sarfarazahmeda9/myrepo_2.git
+git branch -M main
+git push -u origin ma
